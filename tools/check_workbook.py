@@ -299,10 +299,11 @@ def check_records(wb, today):
         if as_of and as_of > today:
             wb.add("ERROR", "site_process", row, f"status_as_of {as_of} is in the future")
     for (site, stage), rows in stage_rows.items():
-        sources = {r.get("source_id") for _, r in rows}
-        if len(rows) > 1 and len(sources) < len(rows):
+        # several rows are fine if each is a different source, or the same source measuring different things
+        keys = {(r.get("source_id"), r.get("capacity_measure")) for _, r in rows}
+        if len(rows) > 1 and len(keys) < len(rows):
             wb.add("WARNING", "site_process", rows[-1][0],
-                   f"{len(rows)} rows for {site} / {stage} but not each from a different source")
+                   f"{len(rows)} rows for {site} / {stage} repeat the same source and measure")
         elif len(rows) > 1:
             statuses = {r.get("status") for _, r in rows}
             if len(statuses) > 1:
@@ -415,13 +416,18 @@ def coverage_summary(wb, today):
     for stage in stages:
         parts = [f"{st} {status_count[(stage, st)]}" for st in bt.LISTS["status"] if status_count[(stage, st)]]
         lines.append(f"  {stage}: " + ", ".join(parts))
-    cap = defaultdict(float)
+    cap, n = defaultdict(float), defaultdict(int)
     for _, p in wb.rows["site_process"]:
         if p.get("status") == "operating" and is_num(p.get("capacity")):
-            cap[(p["process_stage"], p.get("capacity_unit"), p.get("capacity_measure"))] += p["capacity"]
-    for (stage, unit, measure), total in sorted(cap.items(), key=lambda kv: str(kv[0])):
-        lines.append(f"  operating capacity, {stage}: {total:,.0f} {unit} ({measure}); sums only like-for-like rows, "
-                     "and overlapping sources may double count")
+            key = (p["process_stage"], p.get("capacity_unit"), p.get("capacity_measure"), p.get("capacity_basis"))
+            cap[key] += p["capacity"]
+            n[key] += 1
+    if cap:
+        lines.append("  operating capacity (adds only rows with the same stage, unit, measure and basis; "
+                     "different sources for one site may overlap):")
+    for key, total in sorted(cap.items(), key=lambda kv: str(kv[0])):
+        stage, unit, measure, basis = key
+        lines.append(f"    {stage}: {total:,.0f} {unit}, {measure}, {basis} ({n[key]} rows)")
     sites_with_accepts = {a.get("site_id") for _, a in wb.rows["facility_accepts"]}
     confirmed = {a.get("site_id") for _, a in wb.rows["facility_accepts"] if a.get("confirmed_by_party") == "yes"}
     lines.append(f"  sites with published acceptance: {len(sites_with_accepts)}; confirmed by the site: {len(confirmed)}")

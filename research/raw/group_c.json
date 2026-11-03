@@ -1,0 +1,1253 @@
+{
+ "sources": [
+  {
+   "key": "S1",
+   "source_type": "government_report",
+   "title": "NAATBatt Lithium-Ion Battery Supply Chain Database",
+   "url": "https://www.nrel.gov/transportation/li-ion-battery-supply-chain-database.html",
+   "publisher": "NREL / NAATBatt International",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "NOT OPENED - search-result snippet only. Directory of North American Li-ion supply-chain facilities incl. 'end-of-life management and recycling'; interactive map, recycling list not extracted. NREL 2024: facilities grew from >400 to >800 (Sept 2021-Mar 2024)."
+  },
+  {
+   "key": "S2",
+   "source_type": "government_report",
+   "title": "EV battery recycling plants in the United States (v4)",
+   "url": "https://leg.mt.gov/content/Committees/Interim/2023-2024/Transportation/Meetings/September-2024/11.6.EV-battery-recycling-plants-in-the-United-States-v4.pdf",
+   "publisher": "Montana Legislature, Transportation Interim Committee (Sept 2024 meeting materials; author D'Errah Scott)",
+   "date_published": "2023-09-27",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). 4-page table; PDF created 2023-09-27, presented at Sept 2024 meeting. Companies listed: Li-Cycle (Rochester NY; Phoenix AZ; Tuscaloosa AL; Warren OH), International Metals Reclamation Co. (Ellwood City PA, operational, 6,000 t/yr), Omega Harvested Metallurgical (Winchester, Ohio, operational, capacity '?'), Cirba Solutions (Wixom MI; Lancaster OH; Columbia SC; Eloy AZ), Li Industries (Blacksburg VA, operational, capacity '?'), Ascend Elements (Worcester MA; Covington GA; Hopkinsville KY), ACE Green Recycling (Houston area TX), Ecobat (Casa Grande AZ), Redwood Materials (near Reno NV; Charleston SC), SungEel HiTech (Atlanta GA), American Battery Technology (Fernley NV). Capacities in metric t/yr; several estimated from EV-equivalents (0.5 t per EV) - not usable as stated capacities."
+  },
+  {
+   "key": "S3",
+   "source_type": "news",
+   "title": "In 2023, USA Had Battery Recycling Facilities Capable of Reclaiming More Than 35,000 Tons of Battery Materials",
+   "url": "https://cleantechnica.com/2024/07/09/in-2023-usa-had-battery-recycling-facilities-capable-of-reclaiming-more-than-35000-tons-of-battery-materials/",
+   "publisher": "CleanTechnica",
+   "date_published": "2024-07-09",
+   "date_retrieved": "2026-11-03",
+   "notes": "NOT OPENED - search-result snippet only. Reports Argonne Feb 2024 report 'Securing Materials for the U.S. Electric Vehicle Industry' with a map of existing/planned intermediate processing facilities and recycled-material producers as of 2023-10-01; 35,500 tons domestic capacity. Map not seen (cleantechnica.com did not resolve via curl)."
+  },
+  {
+   "key": "S4",
+   "source_type": "doe_announcement",
+   "title": "Battery Manufacturing and Recycling Grants",
+   "url": "https://www.energy.gov/clean-energy-infrastructure/battery-manufacturing-and-recycling-grants",
+   "publisher": "U.S. DOE",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Program page. Lists Round 3 selections (announced 2026-08-20): Nth Cycle (SE US, black mass refining, $100m), Princeton NuEnergy (Commerce GA, $50m), Arcanum Ventures, Elevated Materials, Coreshell (non-recycling). Round 2 selections announced 2024-09-20 and Round 1 2022-10-19 are referenced but project list not on the page."
+  },
+  {
+   "key": "S5",
+   "source_type": "news",
+   "title": "DOE's $3B funding round includes battery recycling projects",
+   "url": "https://www.wastedive.com/news/battery-recycling-grants-department-of-energy-american-battery-li-industries-ascend-cirba-clarios/727887/",
+   "publisher": "Waste Dive",
+   "date_published": "2024-09-24",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Round 2 recycling selections: American Battery Technology ($150m, SC), Cirba Solutions ($200m, SC), Clarios Circular Solutions ($150m, Florence SC retrofit, Li-ion production scrap to battery components, 'annual output of 20,000 metric tons per year'), Li Industries ($55.2m, former manufacturing plant, with GM), Ascend Elements ($125m graphite, KY), Blue Whale Materials ($55.2m, OK)."
+  },
+  {
+   "key": "S6",
+   "source_type": "news",
+   "title": "U.S. Department of Energy announces $3 billion for battery manufacturing, recycling",
+   "url": "https://pv-magazine-usa.com/2024/09/23/u-s-department-of-energy-announces-3-billion-for-battery-manufacturing-recycling/",
+   "publisher": "pv magazine USA",
+   "date_published": "2024-09-23",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). 'Li Industries, Inc. has applied for $55.2 million to retool a manufacturing site in Kettering, Ohio, to recycle 10,000 tons per year of cathode active material for lithium ferro-phosphate (LFP) batteries.' Blue Whale: expand Bartlesville to 50,000 MT/yr Blacksand from current 14,000-ton capacity. Selections subject to negotiation and environmental review."
+  },
+  {
+   "key": "S7",
+   "source_type": "press_release",
+   "title": "Clarios accelerates plans to build significant new U.S. battery recycling and critical mineral processing capacity",
+   "url": "https://batteriesnews.com/clarios-accelerates-plans-to-build-significant-new-us-battery-recycling-and-critical-mineral-processing-capacity/",
+   "publisher": "Clarios (PR Newswire, via Batteries News)",
+   "date_published": "2025-11-11",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Dateline GLENDALE, Wis. 'Clarios plans to fast-track the restart of currently idled infrastructure at its Florence, South Carolina facility to quickly expand battery recycling capacity and add critical mineral processing capability.' Battery chemistry not stated."
+  },
+  {
+   "key": "S8",
+   "source_type": "news",
+   "title": "Florence County electric vehicle battery recycling job growth",
+   "url": "https://www.postandcourier.com/pee-dee/news/florence-county-electric-vehicle-battery-recycling-job-growth/article_144718f0-7c1f-11ef-b529-6f1f25d9d0fc.html",
+   "publisher": "Post and Courier",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "NOT OPENED - search-result snippet only. Plans tentative; company 'must still finalize the agreement with the Department of Energy'; ~375 jobs; retrofit of a Florence factory closed for years. ~late Sept 2024."
+  },
+  {
+   "key": "S9",
+   "source_type": "company_website",
+   "title": "Blue Whale Materials home page",
+   "url": "https://bluewhalematerials.com/",
+   "publisher": "Blue Whale Materials",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Address: 1560 Industrial Blvd, Bartlesville, OK 74006. Process 'safely discharges Li-ion batteries - from end-of-life consumer to EV batteries and production scrap'; Blacksand dry mixed-metal product 'optimized for hydrometallurgical refining'. Founded 2015."
+  },
+  {
+   "key": "S10",
+   "source_type": "press_release",
+   "title": "Blue Whale Materials Awarded $55 Million DOE Grant to Expand Bartlesville, OK Lithium-ion Battery Recycling Facility",
+   "url": "https://bluewhalematerials.com/blue-whale-materials-awarded-55m-doe-grant",
+   "publisher": "Blue Whale Materials",
+   "date_published": "2025-01-08",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Contracted grant award of over $55m from DOE MESC; part of $110m expansion to 'process up to 50,000 tons of battery feedstock annually'; 150 permanent jobs."
+  },
+  {
+   "key": "S11",
+   "source_type": "press_release",
+   "title": "Blue Whale Materials Commissions Baseline Plant in Bartlesville to Advance U.S. Battery Recycling Expansion",
+   "url": "https://bluewhalematerials.com/bwm-commissions-baseline-plant-in-bartlesville",
+   "publisher": "Blue Whale Materials",
+   "date_published": "2025-09-29",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). 'Once commissioning is complete, the plant will be capable of processing up to 14,000 tonnes of battery manufacturing scrap annually, producing Blacksand'. Cells-to-packs line under construction, expected Q1 2026."
+  },
+  {
+   "key": "S12",
+   "source_type": "press_release",
+   "title": "BWM Names Jack Johnson Chief Executive Officer to Lead Next Phase of Commercial Growth",
+   "url": "https://bluewhalematerials.com/bwm-names-jack-johnson-ceo-to-lead-next-phase",
+   "publisher": "Blue Whale Materials",
+   "date_published": "2026-07-06",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Baseline operations came online August 2025; Breakwall Capital senior secured credit facility + upsized Ara Partners equity; Robert Kang steps aside as CEO."
+  },
+  {
+   "key": "S13",
+   "source_type": "press_release",
+   "title": "Blue Whale Materials Completes Full Processing Line in Bartlesville as Commissioning Advances",
+   "url": "https://bluewhalematerials.com/bwm-completes-full-processing-line-in-bartlesville-as-commissioning-advances",
+   "publisher": "Blue Whale Materials",
+   "date_published": "2026-09-16",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Mechanical completion of full line (cells, modules, packs); commissioning began early Sept 2026, expected to continue through balance of year; 'increases annual processing capacity from 14,000 to 20,000 metric tons of battery feedstock'."
+  },
+  {
+   "key": "S14",
+   "source_type": "press_release",
+   "title": "Blue Whale Materials Announces Strategic Partnership with Call2Recycle",
+   "url": "https://bluewhalematerials.com/blue-whale-materials-in-strategic-partnership-with-call2recycle-for-lithium-ion-battery-recycling",
+   "publisher": "Blue Whale Materials",
+   "date_published": "2025-02-14",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Bartlesville facility to receive/process batteries from Call2Recycle's national collection network; 'already operational for sorting and testing and will start processing in mid-2025'. Date from Business Wire URL 20250214 (page itself undated)."
+  },
+  {
+   "key": "S15",
+   "source_type": "epa_echo",
+   "title": "ECHO RCRA facility search: Blue Whale Materials LLC, Bartlesville OK",
+   "url": "https://echo.epa.gov/detailed-facility-report?fid=OKR000041582",
+   "publisher": "U.S. EPA ECHO",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Via ECHO REST API. OKR000041582 1582 Industrial Blvd, LQG, Active, lat 36.73 long -95.8945; also OKR000001479 (1560 Industrial Blvd, 'Other'), OKR000041574 (7323 International Dr, 'Other')."
+  },
+  {
+   "key": "S16",
+   "source_type": "press_release",
+   "title": "R3 Lithium Announces Initiation of Operations to Recover, Refine and Return Critical Minerals to the U.S. Battery Supply Chain",
+   "url": "https://r3lithium.com/news/critical-minerals-to-the-us-battery-supply-chain",
+   "publisher": "R3 Lithium",
+   "date_published": "2026-09-10",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Acquired facility July 2026; 'calciner-based crystallization and water-based precipitation process that extracts lithium directly from recycled black mass'; '30,000 metric tons of shredding capacity and a 2,500-metric-ton lithium carbonate production line'; investing to reach continuous commercial operation; ~$1bn offtakes incl. Trafigura; $15m Series A (Integral GlobalTech, TDK Ventures, Axial); HQ 9176 Industrial Drive NE, Covington GA; founded 2026; 'acquired it with no liabilities'."
+  },
+  {
+   "key": "S17",
+   "source_type": "company_website",
+   "title": "R3 Lithium - About / Product",
+   "url": "https://r3lithium.com/product",
+   "publisher": "R3 Lithium",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Products: lithium carbonate (battery- and technical-grade), black mass and concentrated metal oxide. Shredding lines up to 30,000 t of battery materials. About page: facility produced Li2CO3 from 100% recycled content in 2025; acquired July 2026."
+  },
+  {
+   "key": "S18",
+   "source_type": "news",
+   "title": "TDK backs recycler reviving Ascend's Li plant",
+   "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2878861-tdk-backs-recycler-reviving-ascend-s-li-plant",
+   "publisher": "Argus Media",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "NOT OPENED - search-result snippet only. 'The court approved the sale of Covington to R3 in June for $3mn in cash, with R3 assuming the site's liabilities' (conflicts with R3's 'no liabilities'). ~Sept 2026."
+  },
+  {
+   "key": "S19",
+   "source_type": "epa_echo",
+   "title": "ECHO detailed facility report: R3 Lithium Inc / Ascend Elements, 9176 Industrial Dr NE, Covington GA",
+   "url": "https://echo.epa.gov/detailed-facility-report?fid=GAR000094110",
+   "publisher": "U.S. EPA ECHO",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). RCRA GAR000094110 now named R3 LITHIUM INC, LQG, Active; lat 33.614133 long -83.844056. Same site has CAA ID GA0000001321700076 ('Ascend Elements', planned facility, minor emissions) and TRI ID 3001WSCNDL9176I (last reported 2024). R3 also has GAR000102475 at 2700 Turner Hill Rd, Lithonia GA (purpose unknown)."
+  },
+  {
+   "key": "S20",
+   "source_type": "press_release",
+   "title": "Li Industries Inc Selected for $55 Million Award as Part of DOE BIL Effort to Advance Closed Loop LFP Recycling and Manufacturing",
+   "url": "https://www.prnewswire.com/news-releases/li-industries-inc-selected-for-55-million-award-as-part-of-department-of-energy-bipartisan-infrastructure-law-bil-effort-to-advance-closed-loop-lithium-iron-phosphate-recycling-and-manufacturing-302254717.html",
+   "publisher": "Li Industries (PR Newswire)",
+   "date_published": "2024-09-23",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). 'establishment of a 10,000 tonne per annum LFP CAM recycling and manufacturing plant'; 'expected production capacity of 5 GWh of LFP CAM annually'; Direct E2E recycling; GM support. Site not named in release."
+  },
+  {
+   "key": "S21",
+   "source_type": "company_website",
+   "title": "Li Industries home / press page",
+   "url": "https://www.li-ind.com/press",
+   "publisher": "Li Industries",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Locations: 10021 Rodney St, Pineville NC 28134; Engineering Center 5130 Hovis Road Suite H, Charlotte NC 28208; R&D Center 1872 Pratt Drive Suite 1500, Blacksburg VA 24060. Press: Series B $42m closed July 1, 2024. No Kettering news."
+  },
+  {
+   "key": "S22",
+   "source_type": "news",
+   "title": "Tesla claims 92% battery cell material recovery in new recycling process",
+   "url": "https://electrek.co/2021/08/09/tesla-battery-cell-material-recovery-new-recycling-process/",
+   "publisher": "Electrek",
+   "date_published": "2021-08-09",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Quotes Tesla 2020 Impact Report: 'In the fourth quarter of 2020, Tesla successfully installed the first phase of our cell recycling facility at Gigafactory Nevada for in-house processing of both battery manufacturing scrap and end-of-life batteries.' 1,300 t Ni, 400 t Cu, 80 t Co recycled in 2020 (all channels). Process type not described. Tesla impact report PDFs returned 403."
+  },
+  {
+   "key": "S23",
+   "source_type": "news",
+   "title": "Envergia Plans Detroit, Michigan, Lithium-ion Battery Recycling Operations",
+   "url": "https://www.areadevelopment.com/newsitems/1-24-2025/envergia-detroit-michigan.shtml",
+   "publisher": "Area Development",
+   "date_published": "2025-01-24",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). $32.6m project, 52 jobs; 115,560 sq ft facility at Detroit Gateway Industrial Center 'will recycle batteries into black mass materials'. Founder & CEO MJ Chandilya."
+  },
+  {
+   "key": "S24",
+   "source_type": "other",
+   "title": "Detroit Development Tracker: Envergia EV battery recycling center",
+   "url": "https://development-tracker.outliermedia.org/projects/envergia-ev-battery-recycling-center",
+   "publisher": "Outlier Media",
+   "date_published": "2025-01-28",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). 12601 Southfield Freeway (Gateway Industrial Center); Status: Proposed; quotes MEDC 2025-01-16: $32,667,000 investment, 52 jobs, $750,000 MBDP grant; company has history in Europe/UK. Page last updated 2025-01-28."
+  },
+  {
+   "key": "S25",
+   "source_type": "news",
+   "title": "EV battery recycling facility to open at Detroit Gateway Industrial Center",
+   "url": "https://www.cbsnews.com/detroit/news/ev-battery-recycling-detroit-gateway/",
+   "publisher": "CBS Detroit",
+   "date_published": "2025-01-24",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). First U.S. factory for Envergia, which 'originated in Europe'; opening date not announced; Michigan competed with South Carolina."
+  },
+  {
+   "key": "S26",
+   "source_type": "company_website",
+   "title": "envergia.com",
+   "url": "https://www.envergia.com/",
+   "publisher": "Envergia",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). On 2026-11-03 the site returned a hosting 'Account Suspended!' page (both www and bare domain). Possible sign of inactivity; not proof of closure."
+  },
+  {
+   "key": "S27",
+   "source_type": "epa_echo",
+   "title": "ECHO RCRA facility search: Envergia Inc (MI)",
+   "url": "https://echo.epa.gov/detailed-facility-report?fid=MIK146056428",
+   "publisher": "U.S. EPA ECHO",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Three RCRA IDs, all VSQG Active: MIK146056428 (12601 Southfield Fwy, Detroit 48223; lat 42.381144 long -83.220399), MIK724159112 (2241 Bellevue St, Detroit 48207), MIK711051819 (23330 Pinewood St, Warren 48091). Notification dates not retrieved."
+  },
+  {
+   "key": "S28",
+   "source_type": "press_release",
+   "title": "Redivivus and Re-New-Able Partner to Establish Illinois' First Lithium-Ion Battery Recycling Facility",
+   "url": "https://www.prnewswire.com/news-releases/redivivus-and-re-new-able-partner-to-establish-illinois-first-lithium-ion-battery-recycling-facility-302340081.html",
+   "publisher": "Redivivus (PR Newswire)",
+   "date_published": "2024-12-30",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Re-New-Able leads; purchase order for Redi-Shred; 'The facility will process batteries of any state of charge or health from local businesses and OEM factories' and auto-wrecking-yard battery waste; modular units near feedstock. No site, capacity or date. Re-New-Able's Hazel Crest IL base appears only in Recycling Today (not opened, 403)."
+  },
+  {
+   "key": "S29",
+   "source_type": "news",
+   "title": "LGES and Toyota to establish battery recycling joint venture",
+   "url": "https://battery-news.de/en/2025/06/20/lges-and-toyota-to-establish-battery-recycling-joint-venture/",
+   "publisher": "battery-news.de",
+   "date_published": "2025-06-20",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). GMBI; pre-processing plant in Winston-Salem NC to recover black mass from EV battery production waste; 'Start of production is scheduled for 2026, with a planned capacity of 13,500 tons of battery scrap per year' (~40,000 vehicle batteries); black mass refined externally."
+  },
+  {
+   "key": "S30",
+   "source_type": "news",
+   "title": "LG Energy Solution and Toyota Tsusho to Establish Battery Recycling Joint Venture in the US",
+   "url": "https://www.asiae.co.kr/en/article/2025061911282922542",
+   "publisher": "Asia Economy",
+   "date_published": "2025-06-19",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Signing of 'Battery Recycling Joint Venture Agreement'; announced June 19; GMBI in Winston-Salem NC. Search snippets (not verified on page) name LG Energy Solution Michigan and Toyota Tsusho America as the JV partners."
+  },
+  {
+   "key": "S31",
+   "source_type": "news",
+   "title": "New EV battery recycling facility planned for Toyota site",
+   "url": "https://www.wfdd.org/2024-06-12/new-ev-battery-recycling-facility-planned-for-toyota-site",
+   "publisher": "WFDD",
+   "date_published": "2024-06-12",
+   "date_retrieved": "2026-11-03",
+   "notes": "NOT OPENED - search-result snippet only. 'Green Metals, Inc., a Toyota subsidiary, will build a battery waste recycling facility on the Greensboro-Randolph Megasite campus'; 47 jobs."
+  },
+  {
+   "key": "S32",
+   "source_type": "company_website",
+   "title": "Omega Harvested Metallurgical - Lithium Battery Recycling",
+   "url": "https://www.ohm-inc.com/",
+   "publisher": "Omega Harvested Metallurgical (Praxis Innovations Holdings / Praxis Group)",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). 'Forward Thinking Lithium-ion Battery Recycling'; 'We accept any chemistry shape or size in the Lithium family'; recycling for 'consumer, EV, and ESS'; 'facilities are fully permitted'; address 7515 Hill Rd, Canal Winchester, Ohio 43110; footer copyright 2019. Products page (/our-products/): raw materials 'roughly classified by physical means' into positive/negative materials, separator, Al, Fe, Cu; also lists Li2CO3, CoSO4, NiSO4 as 'Battery Materials' (not clear whether produced on site)."
+  },
+  {
+   "key": "S33",
+   "source_type": "epa_echo",
+   "title": "ECHO RCRA facility search: Omega Harvested Metallurgical (OH)",
+   "url": "https://echo.epa.gov/detailed-facility-report?fid=OHD986983401",
+   "publisher": "U.S. EPA ECHO",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). OHD986983401, 7515 Hill Rd NW, Canal Winchester OH 43110, universe 'Other', status 'Active (    S)', lat 39.84481 long -82.77931. Second ID OHR000222505 at 3900 Groves Rd, Columbus OH 43232 ('Active (H    )')."
+  },
+  {
+   "key": "S34",
+   "source_type": "epa_echo",
+   "title": "ECHO RCRA facility search: Tesla Gigafactory, 1 Electric Avenue, Sparks NV",
+   "url": "https://echo.epa.gov/detailed-facility-report?fid=NVR000091256",
+   "publisher": "U.S. EPA ECHO",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). NVR000091256 'TESLA GIGAFACTORY', 1 Electric Avenue, Sparks NV 89437, LQG, Active. Same address also NVR000098178 ('H&T NEVADA - GF1') and Panasonic NVR000097659. Not specific to the recycling line."
+  },
+  {
+   "key": "S35",
+   "source_type": "epa_echo",
+   "title": "ECHO detailed facility report: Clarios LLC, 1800 Paper Mill Rd, Florence SC",
+   "url": "https://echo.epa.gov/detailed-facility-report?fid=SCR000771451",
+   "publisher": "U.S. EPA ECHO",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). SCR000771451 'CLARIOS LLC', LQG + Operating TSDF; CAA records name it 'Clarios Florence Recycling Center' (formerly Johnson Controls Battery Group); GHGRP 2023 direct emitter. Whether this is the site of the Li-ion CAM retrofit is NOT confirmed."
+  },
+  {
+   "key": "S36",
+   "source_type": "press_release",
+   "title": "Ecobat completes sale of lithium battery recycling business",
+   "url": "https://www.recyclingproductnews.com/article/44912/ecobat-completes-sale-of-lithium-battery-recycling-business",
+   "publisher": "Recycling Product News",
+   "date_published": "2026-09-08",
+   "date_retrieved": "2026-11-03",
+   "notes": "OPENED DIRECTLY (curl via proxy). Sale covers Casa Grande AZ Li-ion recycling operations and assets; buyer not named in article."
+  },
+  {
+   "key": "S37",
+   "source_type": "news",
+   "title": "Trump DOE confirms it's canceling over $700M in manufacturing grants",
+   "url": "https://techcrunch.com/2025/10/20/trump-doe-confirms-its-canceling-over-700m-in-manufacturing-grants",
+   "publisher": "TechCrunch",
+   "date_published": "2025-10-20",
+   "date_retrieved": "2026-11-03",
+   "notes": "NOT OPENED - search-result snippet only. ~$720m cancelled incl. Ascend Elements, American Battery Technology, Anovion, ICL, LuxWall. Clarios, Blue Whale, Li Industries not named in snippets."
+  },
+  {
+   "key": "S38",
+   "source_type": "doe_announcement",
+   "title": "Biden-Harris Administration Announces $62 Million to Lower Battery Recycling Costs Across the Nation",
+   "url": "https://content.govdelivery.com/accounts/USEERE/bulletins/393244a",
+   "publisher": "U.S. DOE (EERE bulletin)",
+   "date_published": "2024-03-28",
+   "date_retrieved": "2026-11-03",
+   "notes": "NOT OPENED - search-result snippet only. 17 consumer-electronics battery recycling projects; snippets name ERI ($4.8m), AMP, Li Industries ($7m sorting/pre-processing), ExPost Technology ($8m), NYC DSNY."
+  },
+  {
+   "key": "S39",
+   "source_type": "government_report",
+   "title": "Universal Waste Lithium Ion Batteries (Ohio EPA guidance)",
+   "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/32/pdf/UW%20Lithium%20Ion%20Batteries.pdf",
+   "publisher": "Ohio EPA",
+   "date_published": null,
+   "date_retrieved": "2026-11-03",
+   "notes": "NOT OPENED - search-result snippet only. Refers to an Ohio EPA list of recyclers and permitted TSDFs for Li-ion universal waste destinations; list not retrieved."
+  }
+ ],
+ "organizations": [
+  {
+   "key": "blue_whale",
+   "name": "Blue Whale Materials LLC",
+   "website": "https://bluewhalematerials.com",
+   "hq_state": "OK",
+   "ownership": "private",
+   "parent": "Ara Partners (portfolio company)",
+   "sec_cik": null,
+   "primary_type": "preprocessor",
+   "source": "S9",
+   "notes": "Founded 2015; Ara Partners investor since 2022. CEO Jack Johnson from July 2026 (co-founder Robert Kang moved to commercial partnerships). Subsidiary BW Energy & Innovation does battery testing (acquired Eclipse Energy 2023)."
+  },
+  {
+   "key": "r3_lithium",
+   "name": "R3 Lithium",
+   "website": "https://r3lithium.com",
+   "hq_state": "GA",
+   "ownership": "private",
+   "parent": null,
+   "sec_cik": null,
+   "primary_type": "integrated",
+   "source": "S16",
+   "notes": "Founded 2026; HQ 9176 Industrial Drive NE, Covington GA. CEO Linh Austin; CTO Eric Gratz (Ascend Elements co-founder). Acquired Ascend Elements' Covington plant July 2026 after Ascend's Chapter 11."
+  },
+  {
+   "key": "clarios_cs",
+   "name": "Clarios Circular Solutions LLC",
+   "website": "https://www.clarios.com",
+   "hq_state": "WI",
+   "ownership": "subsidiary",
+   "parent": "Clarios (Glendale, Wisconsin)",
+   "sec_cik": null,
+   "primary_type": "integrated",
+   "source": "S5",
+   "notes": "DOE round-2 selectee for Florence SC Li-ion scrap-to-CAM retrofit. Parent is primarily a lead-acid / low-voltage battery maker and recycler. HQ state from parent's Glendale, Wis. dateline (S7). CIK not checked (EDGAR not used)."
+  },
+  {
+   "key": "li_industries",
+   "name": "Li Industries, Inc.",
+   "website": "https://www.li-ind.com",
+   "hq_state": "NC",
+   "ownership": "private",
+   "parent": null,
+   "sec_cik": null,
+   "primary_type": "refiner",
+   "source": "S21",
+   "notes": "Direct E2E (direct electrode-to-electrode) recycling, LFP focus; GM support; Series B $42m (July 2024)."
+  },
+  {
+   "key": "tesla",
+   "name": "Tesla, Inc.",
+   "website": "https://www.tesla.com",
+   "hq_state": "TX",
+   "ownership": "public",
+   "parent": null,
+   "sec_cik": null,
+   "primary_type": "oem",
+   "source": "S22",
+   "notes": "In-house cell recycling at Gigafactory Nevada. HQ state from general knowledge (Austin TX); CIK not verified (EDGAR not queried)."
+  },
+  {
+   "key": "envergia",
+   "name": "Envergia Inc.",
+   "website": null,
+   "hq_state": null,
+   "ownership": "private",
+   "parent": null,
+   "sec_cik": null,
+   "primary_type": "preprocessor",
+   "source": "S23",
+   "notes": "Originated in Europe (UK history per MEDC). Founder & CEO MJ Chandilya. Website envergia.com showed 'Account Suspended' on 2026-11-03 (S26)."
+  },
+  {
+   "key": "renewable_tech",
+   "name": "Re-New-Able Technologies",
+   "website": null,
+   "hq_state": null,
+   "ownership": "unknown",
+   "parent": null,
+   "sec_cik": null,
+   "primary_type": "preprocessor",
+   "source": "S28",
+   "notes": "Illinois company (Hazel Crest IL per Recycling Today, not opened). Co-founder/CTO Ravi Gade. Using Redivivus Redi-Shred modular shredding."
+  },
+  {
+   "key": "gmbi",
+   "name": "Green Metals Battery Innovations, LLC",
+   "website": null,
+   "hq_state": "NC",
+   "ownership": "subsidiary",
+   "parent": "Joint venture of LG Energy Solution and Toyota Tsusho",
+   "sec_cik": null,
+   "primary_type": "preprocessor",
+   "source": "S30",
+   "notes": "JV announced 2025-06-19; ownership split not found; partner entities reportedly LG Energy Solution Michigan and Toyota Tsusho America (snippet only)."
+  },
+  {
+   "key": "ohm",
+   "name": "Omega Harvested Metallurgical",
+   "website": "https://www.ohm-inc.com",
+   "hq_state": "OH",
+   "ownership": "private",
+   "parent": "Praxis Innovations Holdings / Praxis Group (per website footer)",
+   "sec_cik": null,
+   "primary_type": "preprocessor",
+   "source": "S32",
+   "notes": "Li-ion battery recycler (consumer, EV, ESS); listed as operational in the Montana legislative table (S2). Ownership type assumed private (no listing found) - verify."
+  }
+ ],
+ "sites": [
+  {
+   "key": "blue_whale_bartlesville",
+   "org": "blue_whale",
+   "site_name": "Blue Whale Materials Bartlesville facility",
+   "address": "1560 Industrial Blvd",
+   "city": "Bartlesville",
+   "state": "OK",
+   "zip": "74006",
+   "county": null,
+   "latitude": 36.73,
+   "longitude": -95.8945,
+   "epa_id": "OKR000041582",
+   "source": "S9",
+   "notes": "Address from company website. EPA ID OKR000041582 (LQG) is registered at 1582 Industrial Blvd; coordinates are ECHO's for that ID (S15). OKR000001479 is registered at 1560 Industrial Blvd. Treat the two addresses as one campus (Bartlesville Industrial Park) - confirm."
+  },
+  {
+   "key": "r3_covington",
+   "org": "r3_lithium",
+   "site_name": "R3 Lithium Covington facility (former Ascend Elements Base 1)",
+   "address": "9176 Industrial Drive NE",
+   "city": "Covington",
+   "state": "GA",
+   "zip": "30014",
+   "county": null,
+   "latitude": 33.614133,
+   "longitude": -83.844056,
+   "epa_id": "GAR000094110",
+   "source": "S16",
+   "notes": "Same physical site as Ascend Elements' Covington plant (covered by another researcher) - ownership transferred July 2026; merge rather than double count. ZIP and coordinates from ECHO (S19)."
+  },
+  {
+   "key": "clarios_florence",
+   "org": "clarios_cs",
+   "site_name": "Clarios Florence, SC facility (planned Li-ion scrap-to-CAM retrofit)",
+   "address": null,
+   "city": "Florence",
+   "state": "SC",
+   "zip": null,
+   "county": null,
+   "latitude": null,
+   "longitude": null,
+   "epa_id": null,
+   "source": "S5",
+   "notes": "Exact building not stated. Candidate: Clarios Florence Recycling Center, 1800 Paper Mill Rd, EPA ID SCR000771451 (S35) - not confirmed as the retrofit site."
+  },
+  {
+   "key": "li_industries_kettering",
+   "org": "li_industries",
+   "site_name": "Li Industries LFP CAM recycling & manufacturing plant (planned)",
+   "address": null,
+   "city": "Kettering",
+   "state": "OH",
+   "zip": null,
+   "county": null,
+   "latitude": null,
+   "longitude": null,
+   "epa_id": null,
+   "source": "S6",
+   "notes": "pv magazine: 'retool a manufacturing site in Kettering, Ohio'. Specific property not identified in any opened source. Li Industries' own release does not name the location."
+  },
+  {
+   "key": "li_industries_blacksburg",
+   "org": "li_industries",
+   "site_name": "Li Industries R&D Center, Blacksburg",
+   "address": "1872 Pratt Drive, Suite 1500",
+   "city": "Blacksburg",
+   "state": "VA",
+   "zip": "24060",
+   "county": null,
+   "latitude": null,
+   "longitude": null,
+   "epa_id": null,
+   "source": "S21",
+   "notes": "Listed as 'Operational' in the Montana table (S2), capacity '?'. Company calls it an R&D Center; no evidence of commercial-scale recycling. No site_process row entered."
+  },
+  {
+   "key": "tesla_giga_nevada",
+   "org": "tesla",
+   "site_name": "Tesla Gigafactory Nevada - in-house cell recycling facility",
+   "address": "1 Electric Avenue",
+   "city": "Sparks",
+   "state": "NV",
+   "zip": "89437",
+   "county": null,
+   "latitude": null,
+   "longitude": null,
+   "epa_id": "NVR000091256",
+   "source": "S34",
+   "notes": "Address/EPA ID are for the whole Gigafactory (S34), not specifically the recycling line. Recycling facility existence from S22."
+  },
+  {
+   "key": "envergia_detroit",
+   "org": "envergia",
+   "site_name": "Envergia EV battery recycling center, Detroit Gateway Industrial Center",
+   "address": "12601 Southfield Freeway",
+   "city": "Detroit",
+   "state": "MI",
+   "zip": "48223",
+   "county": null,
+   "latitude": 42.381144,
+   "longitude": -83.220399,
+   "epa_id": "MIK146056428",
+   "source": "S24",
+   "notes": "ZIP, coordinates, EPA ID from ECHO (S27; VSQG). Envergia also has VSQG IDs at 2241 Bellevue St, Detroit and 23330 Pinewood St, Warren MI - activities unknown."
+  },
+  {
+   "key": "renewable_il",
+   "org": "renewable_tech",
+   "site_name": "Re-New-Able / Redivivus Illinois Li-ion battery recycling facility (site undisclosed)",
+   "address": null,
+   "city": null,
+   "state": "IL",
+   "zip": null,
+   "county": null,
+   "latitude": null,
+   "longitude": null,
+   "epa_id": null,
+   "source": "S28",
+   "notes": "Location in Illinois not disclosed."
+  },
+  {
+   "key": "gmbi_winston_salem",
+   "org": "gmbi",
+   "site_name": "GMBI pre-processing plant, Winston-Salem",
+   "address": null,
+   "city": "Winston-Salem",
+   "state": "NC",
+   "zip": null,
+   "county": null,
+   "latitude": null,
+   "longitude": null,
+   "epa_id": null,
+   "source": "S29",
+   "notes": "Address not found; no ECHO match for 'Green Metals' in NC."
+  },
+  {
+   "key": "ohm_canal_winchester",
+   "org": "ohm",
+   "site_name": "Omega Harvested Metallurgical, Canal Winchester",
+   "address": "7515 Hill Rd NW",
+   "city": "Canal Winchester",
+   "state": "OH",
+   "zip": "43110",
+   "county": null,
+   "latitude": 39.84481,
+   "longitude": -82.77931,
+   "epa_id": "OHD986983401",
+   "source": "S33",
+   "notes": "Address on company website (S32) and ECHO (S33). Montana table lists the location as 'Winchester, Ohio'. Second OHM RCRA ID at 3900 Groves Rd, Columbus OH (OHR000222505) - role unknown."
+  }
+ ],
+ "site_process": [
+  {
+   "site": "blue_whale_bartlesville",
+   "process_stage": "mechanical_preprocessing",
+   "status": "commissioning",
+   "status_as_of": "2026-09-16",
+   "capacity": 20000,
+   "capacity_unit": "t/yr",
+   "capacity_measure": "input_batteries",
+   "capacity_basis": "nameplate_stated",
+   "expected_start": null,
+   "source": "S13",
+   "notes": "Baseline line operating since Aug 2025 (S12): 'up to 14,000 tonnes of battery manufacturing scrap annually' (S11). Full line (cells/modules/packs) mechanically complete, commissioning from early Sept 2026, 'increases annual processing capacity from 14,000 to 20,000 metric tons of battery feedstock'. Status 'commissioning' refers to the expanded line; baseline continues operating. Planned ultimate capacity 'up to 50,000 tons of battery feedstock annually' (S10, planned). Process includes discharge and thermal treatment (Blacksand = 'thermally treated' black mass); no separate rows for those stages because capacities are not stated separately."
+  },
+  {
+   "site": "blue_whale_bartlesville",
+   "process_stage": "discharge",
+   "status": "operating",
+   "status_as_of": "2025-09-29",
+   "capacity": null,
+   "capacity_unit": null,
+   "capacity_measure": null,
+   "capacity_basis": null,
+   "expected_start": null,
+   "source": "S9",
+   "notes": "Website: process 'safely discharges Li-ion batteries'. Operating as of baseline commissioning (S11)."
+  },
+  {
+   "site": "r3_covington",
+   "process_stage": "mechanical_preprocessing",
+   "status": "unknown",
+   "status_as_of": "2026-09-10",
+   "capacity": 30000,
+   "capacity_unit": "t/yr",
+   "capacity_measure": "input_batteries",
+   "capacity_basis": "nameplate_stated",
+   "expected_start": null,
+   "source": "S16",
+   "notes": "'30,000 metric tons of shredding capacity'; product page: 'capability to process up to 30,000 metric tons of battery materials through our shredding lines'. Release says shredding lines 'will produce black mass' from scrap and EoL batteries - whether running now not stated."
+  },
+  {
+   "site": "r3_covington",
+   "process_stage": "hydrometallurgical",
+   "status": "commissioning",
+   "status_as_of": "2026-09-10",
+   "capacity": 2500,
+   "capacity_unit": "t/yr",
+   "capacity_measure": "output_product",
+   "capacity_basis": "nameplate_stated",
+   "expected_start": null,
+   "source": "S16",
+   "notes": "'2,500-metric-ton lithium carbonate production line, with space allocated for an additional 2,500-metric-ton line'. Route: 'calciner-based crystallization and water-based precipitation' extracting lithium from black mass - includes a thermal (calciner) step, so classification as hydro vs pyro is a judgement call. 'Initiation of operations' 2026-09-10; funds used to upgrade line toward continuous commercial operation, hence 'commissioning'. Produced Li2CO3 in 2025 under Ascend."
+  },
+  {
+   "site": "clarios_florence",
+   "process_stage": "precursor_production",
+   "status": "announced",
+   "status_as_of": "2025-11-11",
+   "capacity": 20000,
+   "capacity_unit": "t/yr",
+   "capacity_measure": "output_product",
+   "capacity_basis": "planned",
+   "expected_start": null,
+   "source": "S5",
+   "notes": "DOE round-2 selection (2024-09-20): retrofit to recycle Li-ion battery production scrap into components (CAM per DOE descriptions); 'annual output of 20,000 metric tons per year'. Recycling route not described; stage recorded as precursor_production because stated output is cathode material. No evidence of award finalisation or construction; Nov 2025 Florence restart release (S7) does not mention Li-ion."
+  },
+  {
+   "site": "li_industries_kettering",
+   "process_stage": "direct_recycling",
+   "status": "announced",
+   "status_as_of": "2024-09-23",
+   "capacity": 10000,
+   "capacity_unit": "t/yr",
+   "capacity_measure": "output_product",
+   "capacity_basis": "planned",
+   "expected_start": null,
+   "source": "S20",
+   "notes": "'10,000 tonne per annum LFP CAM recycling and manufacturing plant'; also '5 GWh of LFP CAM annually'. No later news found on Li Industries' site or elsewhere; grant status after 2025 DOE review unknown."
+  },
+  {
+   "site": "tesla_giga_nevada",
+   "process_stage": "mechanical_preprocessing",
+   "status": "unknown",
+   "status_as_of": "2021-08-09",
+   "capacity": null,
+   "capacity_unit": null,
+   "capacity_measure": null,
+   "capacity_basis": null,
+   "expected_start": null,
+   "source": "S22",
+   "notes": "PLACEHOLDER STAGE: Tesla says first phase of in-house 'cell recycling facility' installed Q4 2020 for scrap and EoL batteries, with 'raw material transfer straight to our nickel and cobalt suppliers' - suggests an intermediate (pre-processing) output, but process stage not stated. Current status unknown (no newer primary source opened; Tesla PDFs 403)."
+  },
+  {
+   "site": "envergia_detroit",
+   "process_stage": "mechanical_preprocessing",
+   "status": "announced",
+   "status_as_of": "2025-01-28",
+   "capacity": null,
+   "capacity_unit": null,
+   "capacity_measure": null,
+   "capacity_basis": null,
+   "expected_start": null,
+   "source": "S24",
+   "notes": "Tracker 'Proposed' (updated 2025-01-28); will recycle batteries into black mass. No 2026 news; company website suspended (S26); ECHO VSQG registration at the address exists (S27)."
+  },
+  {
+   "site": "renewable_il",
+   "process_stage": "mechanical_preprocessing",
+   "status": "announced",
+   "status_as_of": "2024-12-30",
+   "capacity": null,
+   "capacity_unit": null,
+   "capacity_measure": null,
+   "capacity_basis": null,
+   "expected_start": null,
+   "source": "S28",
+   "notes": "Redi-Shred modular shredding; no later update found."
+  },
+  {
+   "site": "gmbi_winston_salem",
+   "process_stage": "mechanical_preprocessing",
+   "status": "announced",
+   "status_as_of": "2025-06-20",
+   "capacity": 13500,
+   "capacity_unit": "t/yr",
+   "capacity_measure": "input_batteries",
+   "capacity_basis": "planned",
+   "expected_start": null,
+   "source": "S29",
+   "notes": "'planned capacity of 13,500 tons of battery scrap per year'; start scheduled 2026 (no exact date). No 2026 confirmation of start found."
+  },
+  {
+   "site": "gmbi_winston_salem",
+   "process_stage": "dismantling",
+   "status": "announced",
+   "status_as_of": "2025-06-20",
+   "capacity": null,
+   "capacity_unit": null,
+   "capacity_measure": null,
+   "capacity_basis": null,
+   "expected_start": null,
+   "source": "S29",
+   "notes": "Pre-processing by dismantling and shredding (also per search snippets of the LGES release)."
+  },
+  {
+   "site": "ohm_canal_winchester",
+   "process_stage": "mechanical_preprocessing",
+   "status": "operating",
+   "status_as_of": "2023-09-27",
+   "capacity": null,
+   "capacity_unit": null,
+   "capacity_measure": null,
+   "capacity_basis": null,
+   "expected_start": null,
+   "source": "S2",
+   "notes": "Montana table (dated 2023-09-27) lists OHM 'Operational', capacity '?'. Website (S32) describes physical separation into electrode materials, Cu, Al, Fe. ECHO ID active (S33). Current activity not verified."
+  }
+ ],
+ "accepts": [
+  {
+   "site": "blue_whale_bartlesville",
+   "feed_form": "manufacturing_scrap",
+   "chemistry": "unspecified",
+   "acceptance_conditions": null,
+   "basis": "company_website",
+   "source": "S11",
+   "notes": "Baseline line: battery manufacturing scrap."
+  },
+  {
+   "site": "blue_whale_bartlesville",
+   "feed_form": "cells",
+   "chemistry": "unspecified",
+   "acceptance_conditions": null,
+   "basis": "company_website",
+   "source": "S13",
+   "notes": "Full line processes cells, modules and packs."
+  },
+  {
+   "site": "blue_whale_bartlesville",
+   "feed_form": "modules",
+   "chemistry": "unspecified",
+   "acceptance_conditions": null,
+   "basis": "company_website",
+   "source": "S13",
+   "notes": ""
+  },
+  {
+   "site": "blue_whale_bartlesville",
+   "feed_form": "ev_packs",
+   "chemistry": "unspecified",
+   "acceptance_conditions": null,
+   "basis": "company_website",
+   "source": "S13",
+   "notes": "'packs'; website mentions EV batteries."
+  },
+  {
+   "site": "blue_whale_bartlesville",
+   "feed_form": "consumer_batteries",
+   "chemistry": "unspecified",
+   "acceptance_conditions": null,
+   "basis": "company_website",
+   "source": "S14",
+   "notes": "Call2Recycle collection-network batteries; website: 'end-of-life consumer to EV batteries'."
+  },
+  {
+   "site": "r3_covington",
+   "feed_form": "black_mass",
+   "chemistry": "unspecified",
+   "acceptance_conditions": null,
+   "basis": "company_website",
+   "source": "S16",
+   "notes": "Lithium extracted from recycled black mass; sources recycled black mass and battery materials."
+  },
+  {
+   "site": "r3_covington",
+   "feed_form": "manufacturing_scrap",
+   "chemistry": "unspecified",
+   "acceptance_conditions": null,
+   "basis": "company_website",
+   "source": "S16",
+   "notes": "Shredding lines take manufacturing scrap and end-of-life batteries."
+  },
+  {
+   "site": "r3_covington",
+   "feed_form": "unspecified",
+   "chemistry": "unspecified",
+   "acceptance_conditions": "end-of-life batteries (form not stated)",
+   "basis": "company_website",
+   "source": "S16",
+   "notes": ""
+  },
+  {
+   "site": "clarios_florence",
+   "feed_form": "manufacturing_scrap",
+   "chemistry": "unspecified",
+   "acceptance_conditions": null,
+   "basis": "report",
+   "source": "S5",
+   "notes": "Planned: Li-ion battery production scrap."
+  },
+  {
+   "site": "li_industries_kettering",
+   "feed_form": "unspecified",
+   "chemistry": "LFP",
+   "acceptance_conditions": null,
+   "basis": "report",
+   "source": "S20",
+   "notes": "Closed-loop LFP CAM recycling; feed form not stated."
+  },
+  {
+   "site": "tesla_giga_nevada",
+   "feed_form": "manufacturing_scrap",
+   "chemistry": "unspecified",
+   "acceptance_conditions": "In-house only",
+   "basis": "report",
+   "source": "S22",
+   "notes": ""
+  },
+  {
+   "site": "tesla_giga_nevada",
+   "feed_form": "unspecified",
+   "chemistry": "unspecified",
+   "acceptance_conditions": "Tesla end-of-life batteries, in-house",
+   "basis": "report",
+   "source": "S22",
+   "notes": "Form not stated."
+  },
+  {
+   "site": "renewable_il",
+   "feed_form": "damaged_defective_recalled",
+   "chemistry": "unspecified",
+   "acceptance_conditions": "'batteries of any state of charge or health'",
+   "basis": "company_website",
+   "source": "S28",
+   "notes": "From local businesses, OEM factories and auto-wrecking yards (press release)."
+  },
+  {
+   "site": "gmbi_winston_salem",
+   "feed_form": "manufacturing_scrap",
+   "chemistry": "unspecified",
+   "acceptance_conditions": "Initially EV battery production scrap (LGES production for Toyota)",
+   "basis": "report",
+   "source": "S29",
+   "notes": ""
+  },
+  {
+   "site": "ohm_canal_winchester",
+   "feed_form": "unspecified",
+   "chemistry": "all",
+   "acceptance_conditions": "'any chemistry shape or size in the Lithium family'; consumer, EV and ESS",
+   "basis": "company_website",
+   "source": "S32",
+   "notes": ""
+  }
+ ],
+ "outputs": [
+  {
+   "site": "blue_whale_bartlesville",
+   "product": "black_mass",
+   "source": "S13",
+   "notes": "Blacksand: thermally treated, dry, high-grade black mass (Ni, Co, Li)."
+  },
+  {
+   "site": "r3_covington",
+   "product": "lithium_carbonate",
+   "source": "S16",
+   "notes": "Battery- and technical-grade (company claim; 99% purity demonstrated 2025)."
+  },
+  {
+   "site": "r3_covington",
+   "product": "black_mass",
+   "source": "S17",
+   "notes": "Listed as a product."
+  },
+  {
+   "site": "r3_covington",
+   "product": "other",
+   "source": "S16",
+   "notes": "Concentrated metal oxide (Ni, Co, Mn, graphite) sold separately."
+  },
+  {
+   "site": "clarios_florence",
+   "product": "CAM",
+   "source": "S5",
+   "notes": "Planned."
+  },
+  {
+   "site": "li_industries_kettering",
+   "product": "CAM",
+   "source": "S20",
+   "notes": "LFP CAM, planned."
+  },
+  {
+   "site": "envergia_detroit",
+   "product": "black_mass",
+   "source": "S23",
+   "notes": "Planned."
+  },
+  {
+   "site": "gmbi_winston_salem",
+   "product": "black_mass",
+   "source": "S29",
+   "notes": "Planned; refined externally."
+  },
+  {
+   "site": "ohm_canal_winchester",
+   "product": "copper",
+   "source": "S32",
+   "notes": "Website product list (physical separation)."
+  },
+  {
+   "site": "ohm_canal_winchester",
+   "product": "aluminum",
+   "source": "S32",
+   "notes": "Website product list."
+  },
+  {
+   "site": "ohm_canal_winchester",
+   "product": "other",
+   "source": "S32",
+   "notes": "'Positive and negative materials' (electrode powders), separator, iron. Website also lists Li2CO3, CoSO4, NiSO4 - on-site production not confirmed, not entered."
+  }
+ ],
+ "events": [
+  {
+   "org": "blue_whale",
+   "counterparty": "U.S. Department of Energy",
+   "site": "blue_whale_bartlesville",
+   "event_type": "grant",
+   "event_date": "2025-01-08",
+   "amount": 55000000,
+   "currency": "USD",
+   "summary": "Contracted DOE MESC grant of 'over $55 million' (selected 2024-09-20 as $55.2m per S5) for $110m expansion to 50,000 tons/yr.",
+   "source": "S10"
+  },
+  {
+   "org": "blue_whale",
+   "counterparty": "Call2Recycle",
+   "site": "blue_whale_bartlesville",
+   "event_type": "supply_agreement",
+   "event_date": "2025-02-14",
+   "amount": null,
+   "currency": null,
+   "summary": "Strategic partnership: Bartlesville to receive and process batteries from Call2Recycle's national collection network.",
+   "source": "S14"
+  },
+  {
+   "org": "blue_whale",
+   "counterparty": "Breakwall Capital; Ara Partners",
+   "site": null,
+   "event_type": "loan",
+   "event_date": "2026-07-06",
+   "amount": null,
+   "currency": null,
+   "summary": "Senior secured credit facility from Breakwall Capital plus upsized Ara Partners equity; Jack Johnson named CEO.",
+   "source": "S12"
+  },
+  {
+   "org": "r3_lithium",
+   "counterparty": "Ascend Elements (Chapter 11 estate)",
+   "site": "r3_covington",
+   "event_type": "acquisition",
+   "event_date": "2026-07-01",
+   "amount": 3000000,
+   "currency": "USD",
+   "summary": "R3 acquired the Covington plant in July 2026 (day not stated; 01 is a month placeholder). Price $3m cash per Argus court-record report (S18, snippet); R3 says acquired 'with no liabilities' (S16), Argus says liabilities assumed.",
+   "source": "S16"
+  },
+  {
+   "org": "r3_lithium",
+   "counterparty": "Integral GlobalTech Partners; TDK Ventures; Axial Partners",
+   "site": null,
+   "event_type": "investment",
+   "event_date": "2026-09-10",
+   "amount": 15000000,
+   "currency": "USD",
+   "summary": "$15m Series A.",
+   "source": "S16"
+  },
+  {
+   "org": "r3_lithium",
+   "counterparty": "Trafigura",
+   "site": "r3_covington",
+   "event_type": "offtake_agreement",
+   "event_date": "2026-09-10",
+   "amount": null,
+   "currency": null,
+   "summary": "~$1bn in signed offtake agreements from customers including Trafigura (company estimate; date = announcement).",
+   "source": "S16"
+  },
+  {
+   "org": "r3_lithium",
+   "counterparty": null,
+   "site": "r3_covington",
+   "event_type": "restart",
+   "event_date": "2026-09-10",
+   "amount": null,
+   "currency": null,
+   "summary": "Initiation of operations at Covington under R3 ownership.",
+   "source": "S16"
+  },
+  {
+   "org": "clarios_cs",
+   "counterparty": "U.S. Department of Energy",
+   "site": "clarios_florence",
+   "event_type": "grant",
+   "event_date": "2024-09-20",
+   "amount": 150000000,
+   "currency": "USD",
+   "summary": "Selected for $150m (award negotiation) to retrofit Florence SC facility to recycle Li-ion production scrap; finalisation not confirmed.",
+   "source": "S5"
+  },
+  {
+   "org": "clarios_cs",
+   "counterparty": null,
+   "site": "clarios_florence",
+   "event_type": "restart",
+   "event_date": "2025-11-11",
+   "amount": null,
+   "currency": null,
+   "summary": "Clarios announced plans to fast-track restart of idled Florence infrastructure for battery recycling and critical mineral processing (chemistry unspecified; likely lead-acid). Announcement, not an actual restart.",
+   "source": "S7"
+  },
+  {
+   "org": "li_industries",
+   "counterparty": "U.S. Department of Energy",
+   "site": "li_industries_kettering",
+   "event_type": "grant",
+   "event_date": "2024-09-23",
+   "amount": 55000000,
+   "currency": "USD",
+   "summary": "Selected for $55m DOE BIL award ($55.2m per pv magazine) for 10,000 t/yr LFP CAM recycling & manufacturing plant.",
+   "source": "S20"
+  },
+  {
+   "org": "li_industries",
+   "counterparty": null,
+   "site": null,
+   "event_type": "investment",
+   "event_date": "2024-07-01",
+   "amount": 42000000,
+   "currency": "USD",
+   "summary": "Closed $42m Series B (press page headline).",
+   "source": "S21"
+  },
+  {
+   "org": "gmbi",
+   "counterparty": "LG Energy Solution; Toyota Tsusho",
+   "site": "gmbi_winston_salem",
+   "event_type": "other",
+   "event_date": "2025-06-19",
+   "amount": null,
+   "currency": null,
+   "summary": "JV agreement signed to establish Green Metals Battery Innovations and a Winston-Salem pre-processing plant.",
+   "source": "S30"
+  },
+  {
+   "org": "envergia",
+   "counterparty": "Michigan Economic Development Corporation",
+   "site": "envergia_detroit",
+   "event_type": "grant",
+   "event_date": "2025-01-16",
+   "amount": 750000,
+   "currency": "USD",
+   "summary": "MEDC performance-based MBDP grant up to $750,000 for $32.7m Detroit facility.",
+   "source": "S24"
+  },
+  {
+   "org": "renewable_tech",
+   "counterparty": "Redivivus",
+   "site": "renewable_il",
+   "event_type": "other",
+   "event_date": "2024-12-30",
+   "amount": null,
+   "currency": null,
+   "summary": "Purchase order for Redivivus Redi-Shred process for an Illinois Li-ion recycling facility.",
+   "source": "S28"
+  }
+ ],
+ "permits": [
+  {
+   "site": "blue_whale_bartlesville",
+   "regulator": "U.S. EPA (RCRAInfo)",
+   "permit_type": "rcra_epa_id",
+   "number": "OKR000041582",
+   "status": "Active; LQG",
+   "source": "S15"
+  },
+  {
+   "site": "blue_whale_bartlesville",
+   "regulator": "U.S. EPA (RCRAInfo)",
+   "permit_type": "rcra_epa_id",
+   "number": "OKR000001479",
+   "status": "Active; universe Other (1560 Industrial Blvd)",
+   "source": "S15"
+  },
+  {
+   "site": "r3_covington",
+   "regulator": "U.S. EPA (RCRAInfo)",
+   "permit_type": "rcra_epa_id",
+   "number": "GAR000094110",
+   "status": "Active; LQG; now named R3 Lithium Inc",
+   "source": "S19"
+  },
+  {
+   "site": "r3_covington",
+   "regulator": "Georgia EPD (via ECHO CAA record)",
+   "permit_type": "air_permit",
+   "number": "GA0000001321700076",
+   "status": "ECHO: 'Planned Facility', minor emissions (registered to Ascend Elements)",
+   "source": "S19"
+  },
+  {
+   "site": "tesla_giga_nevada",
+   "regulator": "U.S. EPA (RCRAInfo)",
+   "permit_type": "rcra_epa_id",
+   "number": "NVR000091256",
+   "status": "Active; LQG (whole Gigafactory)",
+   "source": "S34"
+  },
+  {
+   "site": "envergia_detroit",
+   "regulator": "U.S. EPA (RCRAInfo)",
+   "permit_type": "rcra_epa_id",
+   "number": "MIK146056428",
+   "status": "Active; VSQG",
+   "source": "S27"
+  },
+  {
+   "site": "ohm_canal_winchester",
+   "regulator": "U.S. EPA (RCRAInfo)",
+   "permit_type": "rcra_epa_id",
+   "number": "OHD986983401",
+   "status": "Active (S); universe Other",
+   "source": "S33"
+  }
+ ],
+ "unresolved": [
+  "LISTS FOUND: (1) Montana Legislature table 'EV battery recycling plants in the United States v4' (S2, opened) - see source notes for all companies; new-to-us names: Omega Harvested Metallurgical (OH), Li Industries Blacksburg VA, INMETCO (PA); others are covered companies. (2) NREL/NAATBatt supply-chain database (S1, interactive, not extracted). (3) Argonne Feb 2024 facility map (S3, not seen). (4) DOE Battery Manufacturing & Recycling Grants page (S4, opened): round 3 recyclers = Nth Cycle, Princeton NuEnergy (covered). Round 2 (2024-09-20) recycling selectees from S5/S6: ABTC, Cirba, Clarios, Li Industries, Ascend, Blue Whale. (5) DOE $62m consumer battery round, Mar 2024 (S38): ERI, AMP, Li Industries, ExPost Technology, NYC DSNY. (6) Ohio EPA recycler/TSDF list referenced (S39), not retrieved.",
+  "EDGAR not used: no SEC facts were needed for these private companies; Tesla CIK left null (verify 0001318605 if wanted).",
+  "Blue Whale: process stage rows merged to one mechanical_preprocessing row (baseline operating since Aug 2025 + full line commissioning Sept 2026). A thermal treatment step exists (Blacksand 'thermally treated') - could merit a pyrometallurgical-pretreatment flag; no separate capacity.",
+  "COVERED-COMPANY NEWS for others: Ascend Elements filed Chapter 11 (April 2026 per Recycling Today snippet) and sold Covington GA plant to R3 Lithium (July 2026); RCRA ID GAR000094110 now under R3; an older Ascend Covington ID GAR000096420 (10157 Industrial Dr) is Inactive. Ecobat sold Casa Grande AZ Li-ion business, completed ~2026-09-02/08, buyer undisclosed (S36) - new owner unknown. ABTC grant cancelled Oct 2025, reinstated June 2026 (Mining Weekly snippet).",
+  "R3 Lithium also holds RCRA ID GAR000102475 at 2700 Turner Hill Rd, Lithonia GA (active, universe Other) - purpose unknown; possible second site.",
+  "Clarios Florence: Li-ion CAM project status after Sept 2024 selection unknown (no finalisation, cancellation, or construction evidence). Retrofit building not confirmed; Florence Recycling Center (1800 Paper Mill Rd, SCR000771451, operating TSDF) is the likely candidate.",
+  "Li Industries: Kettering OH site named only by pv magazine (and a Dayton Daily News article now 404). No progress news since 2024. Blacksburg VA R&D center listed 'Operational' by Montana table; not evidence of commercial recycling.",
+  "Tesla Gigafactory Nevada: process stage not described in any opened source; site_process row is a placeholder with status unknown. Need Tesla Impact Reports 2022-2025 (tesla.com returned 403).",
+  "Envergia: website suspended as of 2026-11-03; project 'Proposed' (Jan 2025); possible stall. ECHO shows VSQG IDs in Detroit (2 addresses) and Warren MI.",
+  "Omega Harvested Metallurgical (Canal Winchester OH): operating status today unknown; website copyright 2019; capacity unknown; ECHO status code '(S)' meaning not checked.",
+  "Green Metals, Inc. (Toyota subsidiary) battery waste recycling facility at Greensboro-Randolph Megasite, Liberty NC, announced June 2024, ~$19.8m (WFDD/Randolph Record snippets) - process and status unknown; relation to GMBI unknown. No ECHO match for 'Green Metals' in NC.",
+  "LOHUM / ReElement Technologies / American Metals MOU (Sept 2024): 15.5 GWh battery recycling/materials facility at Marion Advanced Technology Center, Indiana - no progress found.",
+  "ReElement Technologies (Noblesville/Marion IN): chromatography refining of black-mass leachate; ~137,500 kg/yr battery materials at Noblesville per Recycling Today snippet (undated); 2026 Marion news is rare earths/germanium. Not entered.",
+  "Redivivus Los Angeles hub (announced ~2024) for collection/transport with Redi-Shred - on-site Li-ion shredding unverified.",
+  "Wistron GreenTech McKinney TX hosts Princeton NuEnergy 500 t/yr direct-recycling pilot line (opened 2022-10-25) - treated as PNE (covered).",
+  "ExPost Technology (La Jolla CA): DOE $8m mobile pre-processing; pilot direct recycling with UC San Diego; no plant location.",
+  "INMETCO, Ellwood City PA: Montana table lists 6,000 t/yr Li-ion capacity (Fastmarkets-sourced) and 'Operational' (2023); owners later filed Chapter 7 (Recycling Today snippet, date unseen). Not entered as a site pending a primary source on Li-ion processing and closure date.",
+  "Out of scope/not found: EVelution Energy (Yuma AZ cobalt refinery uses DRC hydroxide); Lithion PA site is storage/collection only; Electra black mass work is in Ontario; no US plants found for Cylib, tozero, Altilium, Stena, Hydrovolt, Fortum, BASF, Umicore; Aurubis only 'weighing' a US/EU black mass site."
+ ]
+}

@@ -33,6 +33,8 @@ class Importer:
         self.src_by_url = {}    # url -> SRC id
         self.org_by_name = {}   # normalised name -> ORG id
         self.org_by_domain = {}
+        self.site_by_epa = {}   # EPA ID -> site row
+        self.site_by_addr = {}  # (normalised address, city, state) -> site row
         self.counters = {p: 0 for p in bt.ID_PREFIX}
 
     def next_id(self, table):
@@ -112,6 +114,13 @@ class Importer:
             dom = domain(o["website"]) if o.get("website") else None
             existing = self.org_by_name.get(norm) or (self.org_by_domain.get(dom) if dom else None)
             if existing:
+                # same organization researched twice: fill blank fields only, never overwrite
+                row = next(r for r in self.rows["organization"] if r["org_id"] == existing)
+                extra = {"website": o.get("website"), "hq_state": self.enum(o.get("hq_state"), "state", where),
+                         "sec_cik": re.sub(r"\D", "", str(o["sec_cik"])) or None if o.get("sec_cik") else None}
+                for k, v in extra.items():
+                    if row.get(k) in (None, "") and v:
+                        row[k] = v
                 orgs[o["key"]] = existing
                 continue
             oid = self.next_id("organization")
@@ -145,13 +154,34 @@ class Importer:
             if zip_code and not re.fullmatch(r"\d{5}(-\d{4})?", zip_code):
                 self.problems.append(f"{where}: ZIP '{zip_code}' not valid; left blank")
                 zip_code = None
-            site_id = self.next_id("site")
-            self.rows["site"].append({
-                "site_id": site_id, "org_id": oid, "site_name": s.get("site_name"), "address": s.get("address"),
+            row = {
+                "site_id": None, "org_id": oid, "site_name": s.get("site_name"), "address": s.get("address"),
                 "city": s.get("city"), "state": self.enum(s.get("state"), "state", where), "zip": zip_code,
                 "county": s.get("county"), "latitude": lat, "longitude": lon, "epa_id": s.get("epa_id"),
-                "source_id": sid, "date_checked": src_date.get(sid), "notes": s.get("notes")})
-            sites[s["key"]] = site_id
+                "source_id": sid, "date_checked": src_date.get(sid), "notes": s.get("notes")}
+            # The same physical site researched twice (e.g. a plant that changed owner) is merged:
+            # same EPA ID, or same address, city and state.
+            addr_key = (normalise_name(row["address"]), str(row["city"] or "").lower(), row["state"]) \
+                if row["address"] else None
+            existing = self.site_by_epa.get(row["epa_id"]) if row["epa_id"] else None
+            existing = existing or (self.site_by_addr.get(addr_key) if addr_key else None)
+            if existing:
+                for k, v in row.items():   # fill gaps only; never overwrite what is already there
+                    if existing.get(k) in (None, "") and v not in (None, "") and k != "site_id":
+                        existing[k] = v
+                if row["org_id"] != existing["org_id"]:
+                    existing["notes"] = f"{existing.get('notes') or ''} Also researched under another " \
+                                        f"organization ({where}); check current ownership.".strip()
+                self.problems.append(f"{where}: same site as {existing['site_id']} (EPA ID or address); merged")
+                sites[s["key"]] = existing["site_id"]
+                continue
+            row["site_id"] = self.next_id("site")
+            self.rows["site"].append(row)
+            if row["epa_id"]:
+                self.site_by_epa[row["epa_id"]] = row
+            if addr_key:
+                self.site_by_addr[addr_key] = row
+            sites[s["key"]] = row["site_id"]
 
         def site_of(item, where):
             site_id = sites.get(item.get("site"))

@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {"key": "SEC1", "source_type": "sec_filing", "title": "Ace Green Recycling, Inc. Form 10-Q (filed 2026-09-28)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2065462/000175392626001867/g085965_10q.htm",
+     "publisher": "US SEC (EDGAR)", "date_published": "2026-09-28", "date_retrieved": "2026-11-03",
+     "notes": "OPENED directly (EDGAR, declared User-Agent). States: 'We expect to consummate the Business Combination on or before October 31, 2026'; forward-looking statements refer to 'the expected opening of its new facility in Texas'. Revenue categories include black mass, lithium batteries and lithium carbonate (trading; no US Li-ion processing site stated)."},
+    {"key": "SEC2", "source_type": "sec_filing", "title": "American Battery Technology Co Form 10-K (filed 2026-09-14)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1576873/000149315226042497/form10-k.htm",
+     "publisher": "US SEC (EDGAR)", "date_published": "2026-09-14", "date_retrieved": "2026-11-03",
+     "notes": "OPENED directly (EDGAR, declared User-Agent). States the DOE grant 'supports the construction of a recycling facility designed to process 100,000 tonnes per year of battery material'."}
+  ],
+  "organizations": [
+    {"key": "ace_green", "name": "ACE Green Recycling, Inc.", "website": "https://acegreenrecycling.com", "hq_state": "TX",
+     "ownership": "private", "parent": null, "sec_cik": "0002065462", "primary_type": "refiner", "source": "SEC1", "notes": ""},
+    {"key": "abtc", "name": "American Battery Technology Company", "website": "https://americanbatterytechnology.com",
+     "hq_state": "NV", "ownership": "public", "parent": null, "sec_cik": "0001576873", "primary_type": "integrated",
+     "source": "SEC2", "notes": ""}
+  ],
+  "sites": [], "site_process": [], "accepts": [], "outputs": [],
+  "events": [
+    {"org": "ace_green", "counterparty": "Athena Technology Acquisition Corp. II", "site": null, "event_type": "other",
+     "event_date": "2026-09-28", "amount": null, "currency": null,
+     "summary": "Form 10-Q: business combination with Athena Technology Acquisition Corp. II expected to close on or before 2026-10-31 (not closed at filing; no closing filing found as of 2026-11-03). Mentions expected opening of a new Texas facility.",
+     "source": "SEC1"},
+    {"org": "abtc", "counterparty": "US DOE", "site": null, "event_type": "other", "event_date": "2026-09-14",
+     "amount": null, "currency": null,
+     "summary": "Form 10-K (FY2026): DOE grant supports a second recycling facility designed to process 100,000 tonnes per year of battery material; no site named.",
+     "source": "SEC2"}
+  ],
+  "permits": [],
+  "unresolved": ["SEC check (coordinator, 2026-11-03): ACE/Athena merger not shown as closed in EDGAR as of the 2026-09-28 10-Q; re-check for a closing 8-K."]
+}

@@ -90,7 +90,7 @@ CREATE TABLE site_process (
     notes            text,
     -- a capacity figure is only usable with its unit, what it measures, and its basis
     CHECK (capacity IS NULL OR (capacity_unit IS NOT NULL AND capacity_measure IS NOT NULL AND capacity_basis IS NOT NULL)),
-    UNIQUE (site_id, process_stage, source_id)
+    UNIQUE NULLS NOT DISTINCT (site_id, process_stage, source_id, capacity_measure)
 );
 
 CREATE TABLE facility_accepts (

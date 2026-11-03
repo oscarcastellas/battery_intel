@@ -20,7 +20,7 @@ FILE_A = {
                        "primary_type": "integrated", "source": "S1", "notes": ""}],
     "sites": [{"key": "plant", "org": "synth", "site_name": "[SYNTH] plant", "address": None, "city": "Reno",
                "state": "NV", "zip": "89501", "county": None, "latitude": None, "longitude": None,
-               "epa_id": None, "source": "S1", "notes": ""}],
+               "epa_id": "NVR000000009", "source": "S1", "notes": ""}],
     "site_process": [
         {"site": "plant", "process_stage": "mechanical_preprocessing", "status": "operating",
          "status_as_of": "2026-11-02", "capacity": 10000, "capacity_unit": "t/yr",
@@ -51,9 +51,12 @@ FILE_B = {  # same organization (by website) and same source URL as file A
     "sources": [{"key": "Q1", "source_type": "company_website", "title": "dup", "url": "https://synth.example/plant",
                  "publisher": "Synth", "date_published": None, "date_retrieved": "2026-11-02", "notes": ""}],
     "organizations": [{"key": "s2", "name": "Synth Recycling", "website": "synth.example", "hq_state": "NV",
-                       "ownership": "private", "parent": None, "sec_cik": None, "primary_type": "integrated",
+                       "ownership": "private", "parent": None, "sec_cik": "0001234567", "primary_type": "integrated",
                        "source": "Q1", "notes": ""}],
-    "sites": [], "site_process": [], "accepts": [], "outputs": [], "events": [], "permits": [], "unresolved": [],
+    "sites": [{"key": "same_plant", "org": "s2", "site_name": "[SYNTH] plant (again)", "address": None,
+               "city": "Reno", "state": "NV", "zip": None, "county": "Washoe", "latitude": 39.5, "longitude": -119.8,
+               "epa_id": "NVR000000009", "source": "Q1", "notes": ""}],
+    "site_process": [], "accepts": [], "outputs": [], "events": [], "permits": [], "unresolved": [],
 }
 
 
@@ -77,6 +80,13 @@ class TestImport(unittest.TestCase):
     def test_merges_same_source_and_organization(self):
         self.assertEqual(len(self.imp.rows["source"]), 1)
         self.assertEqual(len(self.imp.rows["organization"]), 1)
+        self.assertEqual(self.imp.rows["organization"][0]["sec_cik"], "0001234567")  # gap filled from file B
+
+    def test_merges_same_site_by_epa_id(self):
+        self.assertEqual(len(self.imp.rows["site"]), 1)
+        site = self.imp.rows["site"][0]
+        self.assertEqual(site["county"], "Washoe")          # gap filled from the second record
+        self.assertEqual(site["site_name"], "[SYNTH] plant")  # existing value kept
 
     def test_never_guesses(self):
         report = self.out.with_suffix(".md").read_text()
