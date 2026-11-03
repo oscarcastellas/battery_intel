@@ -1,0 +1,18 @@
+# Your working copies of the workbook (the template and the dated seed live in git)
+data/
+~$*.xlsx
+
+# Secrets and local config
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
