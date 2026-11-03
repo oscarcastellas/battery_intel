@@ -41,7 +41,9 @@ FILE_A = {
                 "source": "S1"},
                {"org": "synth", "counterparty": None, "site": None, "event_type": "pause",
                 "event_date": "2026-01-01", "amount": None, "currency": None, "summary": "no source",
-                "source": "S9"}],
+                "source": "S9"},
+               {"org": "synth", "counterparty": "[SYNTH] OEM", "site": None, "event_type": "offtake_agreement",
+                "event_date": None, "amount": None, "currency": None, "summary": "undated", "source": "S1"}],
     "permits": [],
     "unresolved": ["[SYNTH] lead X could not be verified"],
 }
@@ -82,6 +84,7 @@ class TestImport(unittest.TestCase):
         self.assertIn("moved to notes", report)            # capacity without measure/basis
         self.assertIn("no valid source; row skipped", report)
         self.assertIn("lead X could not be verified", report)
+        self.assertIn("no event date given; row skipped", report)
         hydro = [r for r in self.imp.rows["site_process"] if r["process_stage"] == "hydrometallurgical"][0]
         self.assertIsNone(hydro["capacity"])
         self.assertIn("5000", hydro["notes"])

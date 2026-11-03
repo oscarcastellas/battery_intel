@@ -212,6 +212,10 @@ class Importer:
                 if sid:
                     self.problems.append(f"{where}: organization not found; row skipped")
                 continue
+            event_date = self.as_date(e.get("event_date"), where)
+            if event_date is None:
+                self.problems.append(f"{where}: no event date given; row skipped (summary: {e.get('summary')})")
+                continue
             cp = e.get("counterparty")
             cp_id = orgs.get(cp) or self.org_by_name.get(normalise_name(cp or "")) if cp else None
             amount = self.number(e.get("amount"), where)
@@ -219,7 +223,7 @@ class Importer:
                 "event_id": self.next_id("event"), "org_id": oid, "counterparty_org_id": cp_id,
                 "counterparty_name": None if cp_id else cp, "site_id": sites.get(e.get("site")),
                 "event_type": self.enum(e.get("event_type"), "event_type", where) or "other",
-                "event_date": self.as_date(e.get("event_date"), where), "amount": amount,
+                "event_date": event_date, "amount": amount,
                 "currency": (e.get("currency") or ("USD" if amount is not None else None)),
                 "summary": e.get("summary"), "source_id": sid})
 
