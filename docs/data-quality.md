@@ -48,5 +48,8 @@ The Postgres schema (`sql/0001_schema.sql`) enforces the core rules too.
 ## Monthly spot-check
 `--audit-sample 10` lists 10 random records with their source links. Re-check each one and record the result in `audit_log`. **Target error rate: under 5%.**
 
+## Note on regenerating the seed
+`tools/import_research.py` rebuilds the workbook from the raw JSON, so anything typed into the seed workbook (e.g. audit rows) would be lost if it is regenerated. Work in your own copy (`data/battery_intel.xlsx`); the audit results are also kept in `research/audit_*.md`.
+
 ## Tests
 `python -m unittest discover -s tests` (standard library + openpyxl).

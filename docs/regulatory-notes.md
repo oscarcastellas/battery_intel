@@ -4,6 +4,7 @@
 
 | # | Question | Where to look (official) | Answer + source |
 |---|---|---|---|
+| 0 | **Black mass sales and exports (first priority):** a researcher reported a federal directive (from 2026-08-27) requiring black mass to be sold to US persons for about a year, and ABTC's 8-K (2026-10-01) refers to "recently-enacted federal export controls governing critical battery materials". What exactly is in force, for how long, and does it apply to brokers? | Federal Register; Commerce/BIS; DOE/DPA notices | |
 | 1 | How are waste lithium-ion batteries regulated under RCRA: universal waste (40 CFR 273) vs hazardous waste? What is the status of EPA's work on a lithium-ion-specific universal waste category? | EPA lithium-ion battery recycling pages; Federal Register | |
 | 2 | What does an intermediary (broker) who arranges, but doesn't handle, battery shipments take on legally? | RCRA rules; state rules in the states where you trade; legal advice | |
 | 3 | How must lithium-ion batteries be packaged and shipped (Class 9; UN3480/3481/3090/3091; special rules for damaged, defective or recalled batteries)? | DOT/PHMSA Hazardous Materials Regulations (49 CFR) and PHMSA guidance | |

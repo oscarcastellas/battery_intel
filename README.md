@@ -10,7 +10,7 @@ A private intelligence and deal system for **US lithium-ion (EV) battery resourc
 
 | Item | Where |
 |---|---|
-| Seed map (first research pass) + report | [research/](research/) |
+| **Seed map (first research pass) and report** | [research/seed_report.md](research/seed_report.md) · workbook [research/battery_intel_seed_2026-11.xlsx](research/battery_intel_seed_2026-11.xlsx) |
 | Blank workbook template | [templates/battery_intel_v1.xlsx](templates/battery_intel_v1.xlsx) |
 | Data checker + deal gate | [tools/check_workbook.py](tools/check_workbook.py) |
 | Research importer (JSON → workbook) | [tools/import_research.py](tools/import_research.py) · format: [research/FORMAT.md](research/FORMAT.md) |
